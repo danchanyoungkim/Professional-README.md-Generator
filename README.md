@@ -25,7 +25,7 @@
   Contact me! Contact info down below in the section "Questions".
   
   ## Tests
-  Follow the installation and usage section steps.
+  Follow the installation and usage section steps. If you need more reference/instructions, simply watch the video from the description above!
 
   ## Questions
   ### Contact me:
