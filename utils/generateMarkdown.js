@@ -1,4 +1,4 @@
-const markdownLicense = ["Apache 2.0 License", "Boost Software License 1.0", "BSD 3-Clause License", "BSD 2-Clause License", "CC0", "Attribution 4.0 International", "Attribution-ShareAlike 4.0 International", "Attribution-NonCommercial 4.0 International", "Attribution-NoDerivates 4.0 International", "Attribution-NonCommmercial-ShareAlike 4.0 International", "Attribution-NonCommercial-NoDerivatives 4.0 International", "Eclipse Public License 1.0", "GNU GPL v3", "GNU GPL v2", "GNU AGPL v3", "GNU LGPL v3", "GNU FDL v1.3", "The Hippocratic License 2.1", "The Hippocratic License 3.0", "IBM Public License Version 1.0", "ISC License (ISC)", "The MIT License", "Mozilla Public License 2.0", "Attribution License (BY)", "Open Database License (ODbL)", "Public Domain Dedication and License (PDDL)", "The Perl License", "The Artistic License 2.0", "SIL Open Font License 1.1", "The Unlicense", "WTFPL", "The zlib/libpng License"]
+const markdownLicense = ["Apache 2.0 License", "Boost Software License 1.0", "BSD 3-Clause License", "CC0", "Attribution 4.0 International", "Attribution-ShareAlike 4.0 International", "Attribution-NonCommercial 4.0 International", "Attribution-NoDerivates 4.0 International", "Attribution-NonCommmercial-ShareAlike 4.0 International", "Attribution-NonCommercial-NoDerivatives 4.0 International", "Eclipse Public License 1.0", "GNU GPL v3", "GNU GPL v2", "GNU AGPL v3", "GNU LGPL v3", "GNU FDL v1.3", "The Hippocratic License 2.1", "The Hippocratic License 3.0", "IBM Public License Version 1.0", "ISC License (ISC)", "The MIT License", "Mozilla Public License 2.0", "Attribution License (BY)", "Open Database License (ODbL)", "Public Domain Dedication and License (PDDL)", "The Perl License", "The Artistic License 2.0", "SIL Open Font License 1.1", "The Unlicense", "WTFPL", "The zlib/libpng License"]
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -107,97 +107,97 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case markdownLicense[0]: 
-      return "[${markdownLicense[0]}](https://opensource.org/licenses/Apache-2.0)";
+      return "[click here!](https://opensource.org/licenses/Apache-2.0)";
       break;
     case markdownLicense[1]: 
-      return "[${markdownLicense[1]}](https://www.boost.org/LICENSE_1_0.txt)";
+      return "[click here!](https://www.boost.org/LICENSE_1_0.txt)";
       break;
     case markdownLicense[2]: 
-      return "[${markdownLicense[2]}](https://opensource.org/licenses/BSD-3-Clause)";
+      return "[click here!](https://opensource.org/licenses/BSD-3-Clause)";
       break;
     case markdownLicense[3]: 
-      return "[${markdownLicense[3]}](http://creativecommons.org/publicdomain/zero/1.0/)";
+      return "[click here!](http://creativecommons.org/publicdomain/zero/1.0/)";
       break;
     case markdownLicense[4]: 
-      return "[${markdownLicense[4]}](https://creativecommons.org/licenses/by/4.0/)";
+      return "[click here!](https://creativecommons.org/licenses/by/4.0/)";
       break;
     case markdownLicense[5]: 
-      return "[${markdownLicense[5]}](https://creativecommons.org/licenses/by-sa/4.0/)";
+      return "[click here!](https://creativecommons.org/licenses/by-sa/4.0/)";
       break;
     case markdownLicense[6]: 
-      return "[${markdownLicense[6]}](https://creativecommons.org/licenses/by-nc/4.0/)";
+      return "[click here!](https://creativecommons.org/licenses/by-nc/4.0/)";
       break;
     case markdownLicense[7]: 
-      return "[${markdownLicense[7]}](https://creativecommons.org/licenses/by-nd/4.0/)";
+      return "[click here!](https://creativecommons.org/licenses/by-nd/4.0/)";
       break;
     case markdownLicense[8]: 
-      return "[${markdownLicense[8]}](https://creativecommons.org/licenses/by-nc-sa/4.0/)";
+      return "[click here!](https://creativecommons.org/licenses/by-nc-sa/4.0/)";
       break;
     case markdownLicense[9]: 
-      return "[${markdownLicense[9]}](https://creativecommons.org/licenses/by-nc-nd/4.0/)";
+      return "[click here!](https://creativecommons.org/licenses/by-nc-nd/4.0/)";
       break;
     case markdownLicense[10]: 
-      return "[${markdownLicense[10]}](https://opensource.org/licenses/EPL-1.0)";
+      return "[click here!](https://opensource.org/licenses/EPL-1.0)";
       break;
     case markdownLicense[11]: 
-      return "[${markdownLicense[11]}](https://www.gnu.org/licenses/gpl-3.0)";
+      return "[click here!](https://www.gnu.org/licenses/gpl-3.0)";
       break;
     case markdownLicense[12]: 
-      return "[${markdownLicense[12]}](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
+      return "[click here!](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
       break;
     case markdownLicense[13]: 
-      return "[${markdownLicense[13]}](https://www.gnu.org/licenses/agpl-3.0)";
+      return "[click here!](https://www.gnu.org/licenses/agpl-3.0)";
       break;
     case markdownLicense[14]: 
-      return "[${markdownLicense[14]}](https://www.gnu.org/licenses/lgpl-3.0)";
+      return "[click here!](https://www.gnu.org/licenses/lgpl-3.0)";
       break;
     case markdownLicense[15]: 
-      return "[${markdownLicense[15]}](https://www.gnu.org/licenses/fdl-1.3)";
+      return "[click here!](https://www.gnu.org/licenses/fdl-1.3)";
       break;
     case markdownLicense[16]: 
-      return "[${markdownLicense[16]}](https://firstdonoharm.dev)";
+      return "[click here!](https://firstdonoharm.dev)";
       break;
     case markdownLicense[17]: 
-      return "[${markdownLicense[17]}](https://firstdonoharm.dev)";
+      return "[click here!](https://firstdonoharm.dev)";
       break;
     case markdownLicense[18]: 
-      return "[${markdownLicense[18]}](https://opensource.org/licenses/IPL-1.0)";
+      return "[click here!](https://opensource.org/licenses/IPL-1.0)";
       break;
     case markdownLicense[19]: 
-      return "[${markdownLicense[19]}](https://opensource.org/licenses/ISC)";
+      return "[click here!](https://opensource.org/licenses/ISC)";
       break;
     case markdownLicense[20]: 
-      return "[${markdownLicense[20]}](https://opensource.org/licenses/MIT)";
+      return "[click here!](https://opensource.org/licenses/MIT)";
       break;
     case markdownLicense[21]: 
-      return "[${markdownLicense[21]}](https://opensource.org/licenses/MPL-2.0)";
+      return "[click here!](https://opensource.org/licenses/MPL-2.0)";
       break;
     case markdownLicense[22]: 
-      return "[${markdownLicense[22]}](https://opendatacommons.org/licenses/by/)";
+      return "[click here!](https://opendatacommons.org/licenses/by/)";
       break;
     case markdownLicense[23]: 
-      return "[${markdownLicense[23]}](https://opendatacommons.org/licenses/odbl/)";
+      return "[click here!](https://opendatacommons.org/licenses/odbl/)";
       break;
     case markdownLicense[24]: 
-      return "[${markdownLicense[24]}](https://opendatacommons.org/licenses/pddl/)";
+      return "[click here!](https://opendatacommons.org/licenses/pddl/)";
       break;
     case markdownLicense[25]: 
-      return "[${markdownLicense[25]}](https://opensource.org/licenses/Artistic-2.0)";
+      return "[click here!](https://opensource.org/licenses/Artistic-2.0)";
       break;
     case markdownLicense[26]: 
-      return "[${markdownLicense[26]}](https://opensource.org/licenses/Artistic-2.0)";
+      return "[click here!](https://opensource.org/licenses/Artistic-2.0)";
       break;
     case markdownLicense[27]: 
-      return "[${markdownLicense[27]}](https://opensource.org/licenses/OFL-1.1)";
+      return "[click here!](https://opensource.org/licenses/OFL-1.1)";
       break;
     case markdownLicense[28]: 
-      return "[${markdownLicense[28]}](http://unlicense.org/)";
+      return "[click here!](http://unlicense.org/)";
       break;
     case markdownLicense[29]: 
-      return "[${markdownLicense[29]}](http://www.wtfpl.net/about/)";
+      return "[click here!](http://www.wtfpl.net/about/)";
       break;
     case markdownLicense[30]: 
-      return "[${markdownLicense[30]}](https://opensource.org/licenses/Zlib)";
+      return "[click here!](https://opensource.org/licenses/Zlib)";
       break;
     default:
       return ""
@@ -209,97 +209,97 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case markdownLicense[0]: 
-      return "[${markdownLicense[0]}]:";
+      return "For more information on Apache 2.0 License:";
       break;
     case markdownLicense[1]: 
-      return "[${markdownLicense[1]}]:";
+      return "For more information on Boost Software License 1.0:";
       break;
     case markdownLicense[2]: 
-      return "[${markdownLicense[2]}]:";
+      return "For more information on BSD 3-Clause License:";
       break;
     case markdownLicense[3]: 
-      return "[${markdownLicense[3]}]:";
+      return "For more information on CC0:";
       break;
     case markdownLicense[4]: 
-      return "[${markdownLicense[4]}]:";
+      return "For more information on Attribution 4.0 International:";
       break;
     case markdownLicense[5]: 
-      return "[${markdownLicense[5]}]:";
+      return "For more information on Attribution-ShareAlike 4.0 International:";
       break;
     case markdownLicense[6]: 
-      return "[${markdownLicense[6]}]:";
+      return "For more information on Attribution-NonCommercial 4.0 International:";
       break;
     case markdownLicense[7]: 
-      return "[${markdownLicense[7]}]:";
+      return "For more information on Attribution-NoDerivates 4.0 International:";
       break;
     case markdownLicense[8]: 
-      return "[${markdownLicense[8]}]:";
+      return "For more information on Attribution-NonCommmercial-ShareAlike 4.0 International:";
       break;
     case markdownLicense[9]: 
-      return "[${markdownLicense[9]}]:";
+      return "For more information on Attribution-NonCommercial-NoDerivatives 4.0 International:";
       break;
     case markdownLicense[10]: 
-      return "[${markdownLicense[10]}]:";
+      return "For more information on Eclipse Public License 1.0:";
       break;
     case markdownLicense[11]: 
-      return "[${markdownLicense[11]}]:";
+      return "For more information on GNU GPL v3:";
       break;
     case markdownLicense[12]: 
-      return "[${markdownLicense[12]}]:";
+      return "For more information on GNU GPL v2:";
       break;
     case markdownLicense[13]: 
-      return "[${markdownLicense[13]}]:";
+      return "For more information on GNU AGPL v3:";
       break;
     case markdownLicense[14]: 
-      return "[${markdownLicense[14]}]:";
+      return "For more information on GNU LGPL v3:";
       break;
     case markdownLicense[15]: 
-      return "[${markdownLicense[15]}]:";
+      return "For more information on GNU FDL v1.3:";
       break;
     case markdownLicense[16]: 
-      return "[${markdownLicense[16]}]:";
+      return "For more information on The Hippocratic License 2.1:";
       break;
     case markdownLicense[17]: 
-      return "[${markdownLicense[17]}]:";
+      return "For more information on The Hippocratic License 3.0:";
       break;
     case markdownLicense[18]: 
-      return "[${markdownLicense[18]}]:";
+      return "For more information on IBM Public License Version 1.0:";
       break;
     case markdownLicense[19]: 
-      return "[${markdownLicense[19]}]:";
+      return "For more information on ISC License (ISC):";
       break;
     case markdownLicense[20]: 
-      return "[${markdownLicense[20]}]:";
+      return "For more information on The MIT License:";
       break;
     case markdownLicense[21]: 
-      return "[${markdownLicense[21]}]:";
+      return "For more information on Mozilla Public License 2.0:";
       break;
     case markdownLicense[22]: 
-      return "[${markdownLicense[22]}]:";
+      return "For more information on Attribution License (BY):";
       break;
     case markdownLicense[23]: 
-      return "[${markdownLicense[23]}]:";
+      return "For more information on Open Database License (ODbL):";
       break;
     case markdownLicense[24]: 
-      return "[${markdownLicense[24]}]:";
+      return "For more information on Public Domain Dedication and License (PDDL):";
       break;
     case markdownLicense[25]: 
-      return "[${markdownLicense[25]}]:";
+      return "For more information on The Perl License:";
       break;
     case markdownLicense[26]: 
-      return "[${markdownLicense[26]}]:";
+      return "For more information on The Artistic License 2.0:";
       break;
     case markdownLicense[27]: 
-      return "[${markdownLicense[27]}]:";
+      return "For more information on SIL Open Font License 1.1:";
       break;
     case markdownLicense[28]: 
-      return "[${markdownLicense[28]}]:";
+      return "For more information on The Unlicense:";
       break;
     case markdownLicense[29]: 
-      return "[${markdownLicense[29]}]:";
+      return "For more information on WTFPL:";
       break;
     case markdownLicense[30]: 
-      return "[${markdownLicense[30]}]:";
+      return "For more information on The zlib/libpng License:";
       break;
     default:
       return ""
@@ -317,7 +317,7 @@ function generateMarkdown(data) {
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribute] (#contribute)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
   - [License](#license)
@@ -331,8 +331,8 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Contribute
-  ${data.contribute}
+  ## Contributing
+  ${data.contributing}
   
   ## Tests
   ${data.test}
