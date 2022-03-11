@@ -53,26 +53,14 @@ const promptUser = () => {
             message: "What is your e-mail?",
             type: "input"
         },
-        {
-            name: "fileName",
-            message: "What would you like to name this readme file?",
-            type: "input"
-        },
     ]);
 };
 
-// TODO: Create a function to write README file
-// function writeToFile(filename, data) {
-//     fs.appendFile(`$(filename).md`, data, (err) => {
-//         err ? console.log(err) : console.log(`${filename}.md created!`)
-//     })
-// }
-// function init() {
 // TODO: Create a function to initialize app
 const init = () => {
     promptUser()
-        .then((answers) => fs.writeFileSync(`${fileName}.md`, generateMarkdown(answers)))
-        .then(() => console.log(`Successfully wrote ${fileName}.md`))
+        .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
+        .then(() => console.log(`Successfully wrote README.md`))
         .catch((err) => console.error(err));
 }
 

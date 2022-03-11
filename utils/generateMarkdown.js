@@ -209,97 +209,97 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case markdownLicense[0]: 
-      return "[Read more about ${markdownLicense[0]}]:";
+      return "[${markdownLicense[0]}]:";
       break;
     case markdownLicense[1]: 
-      return "[Read more about ${markdownLicense[1]}]:";
+      return "[${markdownLicense[1]}]:";
       break;
     case markdownLicense[2]: 
-      return "[Read more about ${markdownLicense[2]}]:";
+      return "[${markdownLicense[2]}]:";
       break;
     case markdownLicense[3]: 
-      return "[Read more about ${markdownLicense[3]}]:";
+      return "[${markdownLicense[3]}]:";
       break;
     case markdownLicense[4]: 
-      return "[Read more about ${markdownLicense[4]}]:";
+      return "[${markdownLicense[4]}]:";
       break;
     case markdownLicense[5]: 
-      return "[Read more about ${markdownLicense[5]}]:";
+      return "[${markdownLicense[5]}]:";
       break;
     case markdownLicense[6]: 
-      return "[Read more about ${markdownLicense[6]}]:";
+      return "[${markdownLicense[6]}]:";
       break;
     case markdownLicense[7]: 
-      return "[Read more about ${markdownLicense[7]}]:";
+      return "[${markdownLicense[7]}]:";
       break;
     case markdownLicense[8]: 
-      return "[Read more about ${markdownLicense[8]}]:";
+      return "[${markdownLicense[8]}]:";
       break;
     case markdownLicense[9]: 
-      return "[Read more about ${markdownLicense[9]}]:";
+      return "[${markdownLicense[9]}]:";
       break;
     case markdownLicense[10]: 
-      return "[Read more about ${markdownLicense[10]}]:";
+      return "[${markdownLicense[10]}]:";
       break;
     case markdownLicense[11]: 
-      return "[Read more about ${markdownLicense[11]}]:";
+      return "[${markdownLicense[11]}]:";
       break;
     case markdownLicense[12]: 
-      return "[Read more about ${markdownLicense[12]}]:";
+      return "[${markdownLicense[12]}]:";
       break;
     case markdownLicense[13]: 
-      return "[Read more about ${markdownLicense[13]}]:";
+      return "[${markdownLicense[13]}]:";
       break;
     case markdownLicense[14]: 
-      return "[Read more about ${markdownLicense[14]}]:";
+      return "[${markdownLicense[14]}]:";
       break;
     case markdownLicense[15]: 
-      return "[Read more about ${markdownLicense[15]}]:";
+      return "[${markdownLicense[15]}]:";
       break;
     case markdownLicense[16]: 
-      return "[Read more about ${markdownLicense[16]}]:";
+      return "[${markdownLicense[16]}]:";
       break;
     case markdownLicense[17]: 
-      return "[Read more about ${markdownLicense[17]}]:";
+      return "[${markdownLicense[17]}]:";
       break;
     case markdownLicense[18]: 
-      return "[Read more about ${markdownLicense[18]}]:";
+      return "[${markdownLicense[18]}]:";
       break;
     case markdownLicense[19]: 
-      return "[Read more about ${markdownLicense[19]}]:";
+      return "[${markdownLicense[19]}]:";
       break;
     case markdownLicense[20]: 
-      return "[Read more about ${markdownLicense[20]}]:";
+      return "[${markdownLicense[20]}]:";
       break;
     case markdownLicense[21]: 
-      return "[Read more about ${markdownLicense[21]}]:";
+      return "[${markdownLicense[21]}]:";
       break;
     case markdownLicense[22]: 
-      return "[Read more about ${markdownLicense[22]}]:";
+      return "[${markdownLicense[22]}]:";
       break;
     case markdownLicense[23]: 
-      return "[Read more about ${markdownLicense[23]}]:";
+      return "[${markdownLicense[23]}]:";
       break;
     case markdownLicense[24]: 
-      return "[Read more about ${markdownLicense[24]}]:";
+      return "[${markdownLicense[24]}]:";
       break;
     case markdownLicense[25]: 
-      return "[Read more about ${markdownLicense[25]}]:";
+      return "[${markdownLicense[25]}]:";
       break;
     case markdownLicense[26]: 
-      return "[Read more about ${markdownLicense[26]}]:";
+      return "[${markdownLicense[26]}]:";
       break;
     case markdownLicense[27]: 
-      return "[Read more about ${markdownLicense[27]}]:";
+      return "[${markdownLicense[27]}]:";
       break;
     case markdownLicense[28]: 
-      return "[Read more about ${markdownLicense[28]}]:";
+      return "[${markdownLicense[28]}]:";
       break;
     case markdownLicense[29]: 
-      return "[Read more about ${markdownLicense[29]}]:";
+      return "[${markdownLicense[29]}]:";
       break;
     case markdownLicense[30]: 
-      return "[Read more about ${markdownLicense[30]}]:";
+      return "[${markdownLicense[30]}]:";
       break;
     default:
       return ""
