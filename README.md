@@ -21,6 +21,8 @@
 
   ## Installation
   Press the green button on the top right that says 'code'. Copy the link and clone it into your folders.
+  
+  Make sure to delete the original "README.md" once you clone it.
 
   ## Usage
   Simply navigate to this file/folder with your terminal and type in 'node index' to get started. The prompts will lead you through the process. It is that easy, and the prompts are simple too.
