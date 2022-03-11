@@ -1,7 +1,7 @@
 const markdownLicense = ["Apache 2.0 License", "Boost Software License 1.0", "BSD 3-Clause License", "CC0", "Attribution 4.0 International", "Attribution-ShareAlike 4.0 International", "Attribution-NonCommercial 4.0 International", "Attribution-NoDerivates 4.0 International", "Attribution-NonCommmercial-ShareAlike 4.0 International", "Attribution-NonCommercial-NoDerivatives 4.0 International", "Eclipse Public License 1.0", "GNU GPL v3", "GNU GPL v2", "GNU AGPL v3", "GNU LGPL v3", "GNU FDL v1.3", "The Hippocratic License 2.1", "The Hippocratic License 3.0", "IBM Public License Version 1.0", "ISC License (ISC)", "The MIT License", "Mozilla Public License 2.0", "Attribution License (BY)", "Open Database License (ODbL)", "Public Domain Dedication and License (PDDL)", "The Perl License", "The Artistic License 2.0", "SIL Open Font License 1.1", "The Unlicense", "WTFPL", "The zlib/libpng License"]
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// A function that returns a license badge based on which license is passed in.
+// If there is no license, return an empty string.
 function renderLicenseBadge(license) {
   switch (license) {
     case markdownLicense[0]: 
@@ -102,8 +102,8 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// A function that returns the license link.
+// If there is no license, return an empty string.
 function renderLicenseLink(license) {
   switch (license) {
     case markdownLicense[0]: 
@@ -204,8 +204,8 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// A function that returns the license section of README.
+// If there is no license, return an empty string.
 function renderLicenseSection(license) {
   switch (license) {
     case markdownLicense[0]: 
