@@ -14,6 +14,8 @@
 
   ## Description
   This project was built for the ease of creating captivating, yet professional readme files that are required for a quality description of a project. It solves productivity as the program does the rest of the job for you. This project has taught me that there are endless ways to use terminals.
+  
+  [Video Walkthrough](https://www.youtube.com/watch?v=hyO1X6VF_Aw)
 
   ## Installation
   Press the green button on the top right that says 'code'. Copy the link and clone it into your folders.
